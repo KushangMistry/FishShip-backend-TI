@@ -14,10 +14,10 @@ app.use(bodyparser.json());
 // Credentials here are empty for the safety reasons
 // Moreover, credentials can be obtained using different separate config file
 var mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'kush',
-    database: 'mydb',
+    host: '', //Your preffered database details here
+    user: '',
+    password: '',
+    database: '',
     multipleStatements: true
 });
 
